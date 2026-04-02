@@ -1,0 +1,6 @@
+@juicebora_HostAddress = http://localhost:5143
+
+GET {{juicebora_HostAddress}}/api/
+Accept: application/json
+
+###
