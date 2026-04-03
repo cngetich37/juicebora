@@ -1,13 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 namespace juicebora.Models;
 
-public class JuiceBoraDbContext : DbContext
+public class JuiceBoraDbContext(DbContextOptions<JuiceBoraDbContext> options) : DbContext(options)
 {
-    public JuiceBoraDbContext(DbContextOptions<JuiceBoraDbContext> options)
-        : base(options)
-    {
-    }
-
     public DbSet<Juice> Juices { get; set; } = null!;
     public DbSet<Customer> Customers { get; set; } = null!;
     public DbSet<Order> Orders { get; set; } = null!;

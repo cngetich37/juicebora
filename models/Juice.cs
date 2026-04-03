@@ -10,6 +10,6 @@ public class Juice
     public decimal Price { get; set; }
     public string? Description { get; set; }
 
-    public ICollection<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
-    public ICollection<JuiceIngredient> JuiceIngredients { get; set; } = new List<JuiceIngredient>();
+    public ICollection<OrderItem> OrderItems { get; set; } = [];
+    public ICollection<JuiceIngredient> JuiceIngredients { get; set; } = [];
 }

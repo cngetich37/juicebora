@@ -12,6 +12,6 @@ public class Order
     [Precision(18, 2)]
     public decimal TotalAmount { get; set; }
 
-    public ICollection<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
+    public ICollection<OrderItem> OrderItems { get; set; } = [];
     public Sale? Sale { get; set; }
 }
