@@ -9,4 +9,7 @@ public class Ingredient
 
     [Precision(18, 2)]
     public decimal QuantityInStock { get; set; }
+
+    [Precision(18, 2)]
+    public decimal ReorderLevel { get; set; }
 }

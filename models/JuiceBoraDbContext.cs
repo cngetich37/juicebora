@@ -11,4 +11,6 @@ public class JuiceBoraDbContext(DbContextOptions<JuiceBoraDbContext> options) : 
 
     public required DbSet<OrderItem> OrderItems {get; set;}
 
+    public required DbSet<JuiceIngredient> JuiceIngredients {get; set;}
+    public required DbSet<Sale> Sales {get; set;}
 }
