@@ -1,4 +1,4 @@
-namespace juicebora.models;
+namespace juicebora.Models;
 using Microsoft.EntityFrameworkCore;
 
 public class JuiceBoraDbContext(DbContextOptions<JuiceBoraDbContext> options) : DbContext(options)
@@ -6,4 +6,9 @@ public class JuiceBoraDbContext(DbContextOptions<JuiceBoraDbContext> options) : 
     public required DbSet<Customer> Customers {get; set;}
     public required DbSet<Juice> Juices {get; set;}
     public required DbSet<Order> Orders {get; set;}
+
+    public required DbSet<Ingredient> Ingredients {get; set;}
+
+    public required DbSet<OrderItem> OrderItems {get; set;}
+
 }

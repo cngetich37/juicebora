@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 
-namespace juicebora.models;
+namespace juicebora.Models;
 public class Order
 {
     public int Id { get; set; }

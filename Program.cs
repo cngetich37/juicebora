@@ -1,4 +1,4 @@
-using juicebora.models;
+using juicebora.Models;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

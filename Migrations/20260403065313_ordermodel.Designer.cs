@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using juicebora.models;
+using juicebora.Models;
 
 #nullable disable
 
@@ -13,7 +13,7 @@ namespace juicebora.Migrations
 {
     [DbContext(typeof(JuiceBoraDbContext))]
     [Migration("20260403065313_ordermodel")]
-    partial class ordermodel
+    partial class OrderModelToday
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

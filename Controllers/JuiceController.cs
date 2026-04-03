@@ -1,5 +1,5 @@
 namespace juicebora.Controllers;
-using juicebora.models;
+using juicebora.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 

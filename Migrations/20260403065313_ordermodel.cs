@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace juicebora.Migrations
 {
     /// <inheritdoc />
-    public partial class ordermodel : Migration
+    public partial class OrderModelToday : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
