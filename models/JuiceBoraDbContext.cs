@@ -5,4 +5,5 @@ public class JuiceBoraDbContext(DbContextOptions<JuiceBoraDbContext> options) : 
 {
     public required DbSet<Customer> Customers {get; set;}
     public required DbSet<Juice> Juices {get; set;}
+    public required DbSet<Order> Orders {get; set;}
 }
