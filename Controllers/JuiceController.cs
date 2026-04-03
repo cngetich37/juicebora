@@ -5,9 +5,9 @@ using Microsoft.EntityFrameworkCore;
 
 [ApiController]
 [Route("api/[controller]")]
-public class JuiceController(JuiceDbContext _juiceDbContext) : ControllerBase
+public class JuiceController(JuiceBoraDbContext _juiceDbContext) : ControllerBase
 {
-   private readonly JuiceDbContext juiceDbContext = _juiceDbContext;
+   private readonly JuiceBoraDbContext juiceDbContext = _juiceDbContext;
 
    [HttpGet]
    public async Task<ActionResult<IEnumerable<Juice>>> GetJuices()
