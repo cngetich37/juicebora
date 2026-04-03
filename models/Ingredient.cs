@@ -12,4 +12,6 @@ public class Ingredient
 
     [Precision(18, 2)]
     public decimal ReorderLevel { get; set; }
+
+    public ICollection<JuiceIngredient> JuiceIngredients { get; set; } = new List<JuiceIngredient>();
 }
